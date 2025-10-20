@@ -22,7 +22,7 @@ flwr run .
 The general config file for the simulation parameters (number of clients, federated rounds) is `pyproject.toml`. Training, partitioning and aggregation hyperparameters can be set in the `task.py` file.
 NOTE: If ran with a GPU, set the `options.backend.client-resources.num-gpus` accordingly in order to avoid OOM errors (1/num of clients running on GPU concurrently)
 
-### 📂 Project Structure
+### Project Structure
 The predefined project structure and needed files are automatically generated when running the command :
 ```bash
 flwr new
